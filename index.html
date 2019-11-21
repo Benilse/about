@@ -39,7 +39,7 @@
 					<ul>
 						<li><a href="#about">About Me</a></li>
 						<li><a href="#ability">Ability</a></li>
-						<li><a href="/product/cart.html">Portfolio</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -66,8 +66,8 @@
 							</dl>
 							<dl>
 								<dt>학력</dt>
-								<dd>인하대학교 재학</dd>
-								<dd>인천디자인고등학교 졸업</dd>
+								<dd>2018. 02 ~ 재학 인하대학교 소프트웨어융합공학과</dd>
+								<dd>2015 졸업 인천디자인고등학교 시각디자인과 </dd>
 							</dl>
 							<dl>
 								<dt>경력</dt>
@@ -130,7 +130,6 @@
 							</div>
 						</dd>
 					</dl>
-					
 					<dl class="standard">
 						<dt>Web Standard</dt>
 						<dd>
@@ -191,13 +190,99 @@
 							</div>
 						</dd>
 					</dl>
+					<dl class="svn">
+						<dt>SVN</dt>
+						<dd>
+							<span class="blind">100%</span>
+							<div>
+								<span class="on"></span><span class="on"></span><span class="on"></span class="on"><span class="on"></span><span class="on"></span>
+							</div>
+						</dd>
+					</dl>
+					<dl class="git">
+						<dt>Git</dt>
+						<dd>
+							<span class="blind">80%</span>
+							<div>
+								<span class="on"></span><span class="on"></span><span class="on"></span class="on"><span class="on"></span><span></span>
+							</div>
+						</dd>
+					</dl>
 				</div>
 			</section>
 			<section id="portfolio">
-					<h2>Portfolio</h2>
-					<div>
+				<h2>Portfolio</h2>
+				<div class="slider">
+					<div class="sliderWrap">
+						<div class="sliderArea">
+							<div class="img">
+								<ul>
+									<li>
+										<div class="portfolio">
+											<div>
+												<img src="./asset/img/Portfolio.png" alt="포트폴리오">
+											</div>
+											<div>
+												<h3>S&amp;MG</h3>
+												<dl>
+													<dt>유형</dt>
+													<dd>반응형</dd>
+												</dl>
+												<dl>
+													<dt>참여도</dt>
+													<dd>퍼블리싱 100%</dd>
+												</dl>
+												<dl>
+													<dt>소요기간</dt>
+													<dd>3일</dd>
+												</dl>
+												<p></p>
+												<a href="https://www.snmg.co.kr/" target="@portfolio">홈페이지 보기</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="portfolio">
+											<div>
+												<img src="./asset/img/Portfolio.png" alt="포트폴리오">
+											</div>
+											<div>
+												<h3>S&amp;MG</h3>
+												<dl>
+													<dt>유형</dt>
+													<dd>반응형</dd>
+												</dl>
+												<dl>
+													<dt>참여도</dt>
+													<dd>퍼블리싱 100%</dd>
+												</dl>
+												<dl>
+													<dt>소요기간</dt>
+													<dd>3일</dd>
+												</dl>
+												<a href="https://www.snmg.co.kr/" target="@portfolio">홈페이지 보기</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="btns">
+								<button type="button" class="left">&lt;</button>
+								<button type="button" class="right">&gt;</button>
+							</div>
+						</div>
 					</div>
+				</div>
 			</section>
+			<script>
+				$('.slider').bSlider({
+					motion: 'blink',
+					width: 1200,
+					height: 564,
+					btns: true,
+					paging: true
+				});
+			</script>
 			<!-- <div class="sliderArea nine">
 				<div class="sliderWrap">
 					<div class="sliderArea">
