@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* RESET STYLE,AUTHOR_,DATE_2014. */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u,
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html {
+	font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', Helvetica, sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+audio, canvas, video {
+	display: inline-block;
+}
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+[hidden], template {
+	display: none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+}
+blockquote, q {
+	quotes: '' '';
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+button, input[type='button'], input[type='reset'], input[type='submit'] {
+	-webkit-appearance: button;
+}
+button[disabled], input[disabled] {
+	cursor: default;
+}
+b, strong {
+	font-weight: bold;
+}
+dfn {
+	font-style: italic;
+}
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	white-space: pre-line;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -hp-pre-wrap;
+	word-wrap: break-word;
+}
+address {
+	font-style: normal;
+}
+a, button  {
+	cursor: pointer;
+}
+a, button, input, select, textarea {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', Helvetica, sans-serif;
+}
+img {
+	vertical-align: top;
+}
+hr {
+	position: absolute;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+	overflow: hidden;
+	height: 0;
+	width: 0;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+.blind {
+	margin: 0;
+	padding: 0;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+.hide {
+	display: none !important;
+}
+
+/* skip navigation */
+#shortCut {
+	text-align: center;
+	z-index: 999;
+	position: relative;
+}
+#shortCut a {
+	top: -50px;
+	left: 0;
+	padding: 10px 0;
+	color: #333333;
+	position: absolute;
+}
+
+#shortCut a:active, #shortCut a:focus {
+	top: 0;
+	color: #333333;
+	text-decoration: none;
+}

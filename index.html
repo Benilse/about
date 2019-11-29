@@ -35,13 +35,18 @@
 				<h1 class="logo">
 					<a href="/">About Me</a>
 				</h1>
-				<nav class="topNav">
+				<nav class="nav">
 					<ul>
-						<li><a href="#about">About Me</a></li>
-						<li><a href="#ability">Ability</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
+						<li data-target="#about"><a href="#about">About Me</a></li>
+						<li data-target="#ability"><a href="#ability">Ability</a></li>
+						<li data-target="#portfolio"><a href="#portfolio">Portfolio</a></li>
 					</ul>
 				</nav>
+				<div class="navBtn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 			</div>
 		</header>
 		<main id="container">
@@ -49,32 +54,32 @@
 				<div>
 					<h2 class="blind">About Me</h2>
 					<div>
-						<h3>봉석윤</h3>
-						<p>Front-End Developer</p>
+						<h3 class="sece">봉석윤</h3>
+						<p class="sece">Front-End Developer</p>
 						<div>
-							<dl>
+							<dl class="sece">
 								<dt>성별</dt>
 								<dd>남성</dd>
 							</dl>
-							<dl>
+							<dl class="sece">
 								<dt>생일</dt>
 								<dd>1996.04.01</dd>
 							</dl>
-							<dl>
+							<dl class="sece">
 								<dt>거주지</dt>
 								<dd>인천광역시 부평구 부평북로</dd>
 							</dl>
-							<dl>
+							<dl class="sece">
 								<dt>학력</dt>
 								<dd>2018. 02 ~ 재학 인하대학교 소프트웨어융합공학과</dd>
 								<dd>2015 졸업 인천디자인고등학교 시각디자인과 </dd>
 							</dl>
-							<dl>
+							<dl class="sece">
 								<dt>경력</dt>
 								<dd>2015. 10 ~ 2019. 10 ㈜아이티클랜 개발팀 주임</dd>
 								<dd>2014. 07 ~ 2015. 10 ㈜153크리에이터즈 기획팀 사원</dd>
 							</dl>
-							<dl>
+							<dl class="sece">
 								<dt>자격증</dt>
 								<dd>2019. 11 정보처리기사</dd>
 								<dd>2014. 07 전자출판기능사</dd>
@@ -91,10 +96,10 @@
 				</div>
 			</section>
 			<section id="ability">
-				<h2>Ability</h2>
+				<h2 class="sece">Ability</h2>
 				<div>
-					<h3>Front-End</h3>
-					<dl class="html">
+					<h3 class="sece">Front-End</h3>
+					<dl class="sece html">
 						<dt>HTML</dt>
 						<dd>
 							<span class="blind">100%</span>
@@ -103,7 +108,7 @@
 							</div>
 						</dd>
 					</dl>
-					<dl class="css">
+					<dl class="sece css">
 						<dt>CSS</dt>
 						<dd>
 							<span class="blind">100%</span>
@@ -112,7 +117,7 @@
 							</div>
 						</dd>
 					</dl>
-					<dl class="js">
+					<dl class="sece js">
 						<dt>JavaScript</dt>
 						<dd>
 							<span class="blind">60%</span>
@@ -121,7 +126,7 @@
 							</div>
 						</dd>
 					</dl>
-					<dl class="jquery">
+					<dl class="sece jquery">
 						<dt>jQuery</dt>
 						<dd>
 							<span class="blind">80%</span>
@@ -130,7 +135,7 @@
 							</div>
 						</dd>
 					</dl>
-					<dl class="standard">
+					<dl class="sece standard">
 						<dt>Web Standard</dt>
 						<dd>
 							<span class="blind">100%</span>
@@ -139,7 +144,7 @@
 							</div>
 						</dd>
 					</dl>
-					<dl class="accessibility">
+					<dl class="sece accessibility">
 						<dt>Web Accessibility</dt>
 						<dd>
 							<span class="blind">80%</span>
@@ -150,8 +155,8 @@
 					</dl>
 				</div>
 				<div>
-					<h3>Back</h3>
-					<dl class="net">
+					<h3 class="sece">Back</h3>
+					<dl class="sece net">
 						<dt>.Net</dt>
 						<dd>
 							<span class="blind">80%</span>
@@ -160,7 +165,7 @@
 							</div>
 						</dd>
 					</dl>
-					<dl class="mssql">
+					<dl class="sece mssql">
 						<dt>MS SQL</dt>
 						<dd>
 							<span class="blind">60%</span>
@@ -171,8 +176,8 @@
 					</dl>
 				</div>
 				<div>
-					<h3>Tool</h3>
-					<dl class="photoshop">
+					<h3 class="sece">Tool</h3>
+					<dl class="sece photoshop">
 						<dt>Photoshop</dt>
 						<dd>
 							<span class="blind">100%</span>
@@ -181,7 +186,7 @@
 							</div>
 						</dd>
 					</dl>
-					<dl class="illustrator">
+					<dl class="sece illustrator">
 						<dt>Illustrator</dt>
 						<dd>
 							<span class="blind">100%</span>
@@ -190,7 +195,7 @@
 							</div>
 						</dd>
 					</dl>
-					<dl class="svn">
+					<dl class="sece svn">
 						<dt>SVN</dt>
 						<dd>
 							<span class="blind">100%</span>
@@ -199,7 +204,7 @@
 							</div>
 						</dd>
 					</dl>
-					<dl class="git">
+					<dl class="sece git">
 						<dt>Git</dt>
 						<dd>
 							<span class="blind">80%</span>
@@ -211,8 +216,8 @@
 				</div>
 			</section>
 			<section id="portfolio">
-				<h2>Portfolio</h2>
-				<div class="slider">
+				<h2 class="sece">Portfolio</h2>
+				<div class="slider outer sece">
 					<div class="sliderWrap">
 						<div class="sliderArea">
 							<div class="img">
@@ -220,7 +225,26 @@
 									<li>
 										<div class="portfolio">
 											<div>
-												<img src="./asset/img/Portfolio.png" alt="포트폴리오">
+												<div class="slider inner">
+													<div class="sliderWrap">
+														<div class="sliderArea">
+															<div class="img">
+																<ul>
+																	<li>
+																		<img src="./asset/img/Portfolio.png" alt="포트폴리오">
+																	</li>
+																	<li>
+																		<img src="./asset/img/Portfolio.png" alt="포트폴리오">
+																	</li>
+																</ul>
+															</div>
+															<div class="btns">
+																<button type="button" class="left">&lt;</button>
+																<button type="button" class="right">&gt;</button>
+															</div>
+														</div>
+													</div>
+												</div>
 											</div>
 											<div>
 												<h3>S&amp;MG</h3>
@@ -287,15 +311,6 @@
 			</div>
 		</footer>
 		<script src="/asset/js/common.js"></script>
-		<script>
-			// $('.slider').bSlider({
-			// 	motion: 'blink',
-			// 	width: 1200,
-			// 	height: 564,
-			// 	btns: true,
-			// 	paging: true
-			// });
-		</script>
 	</div>
 </body>
 </html>
