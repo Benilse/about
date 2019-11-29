@@ -192,6 +192,7 @@
 	background-color: rgba(0, 0, 0, 0.6);
 	position: absolute;
 	display: none;
+	touch-action: none;
 	z-index: 99;
 }
 

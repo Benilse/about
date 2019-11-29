@@ -13,8 +13,6 @@
 var menuScroll;
 $('.navOpen').on('click', function() {
 	//화면잠금
-	// $(document).on('touchmove', function(event){event.preventDefault()}, {passive: false});
-
 	$('#menu').css('top', $(window).scrollTop()).show(0, function() {
 		$(this).css({
 			'left': 0,
@@ -34,7 +32,10 @@ $('.navOpen').on('click', function() {
 		click: true,
 		mouseWhell: true,
 		scrollbars: false,
-		fadeScrollbars: false
+		fadeScrollbars: false,		
+		disablePointer: true,
+		disableTouch: false,
+		disableMouse: false
 	});
 })
 
@@ -64,9 +65,6 @@ $(document).on('click', '.navClose, .shadow.menu', function() {
 //노선정보 팝업
 var popUpScroll;
 $('.areaRoute a').on('click', function() {
-	//화면잠금
-	// $(document).on('touchmove', function(event){event.preventDefault()}, {passive: false});
-
 	$('#popup').css('top', $(window).scrollTop() * 2).show(0, function() {
 		$(this).css({
 			'transition': 'all 0.2s ease-out',
@@ -83,7 +81,10 @@ $('.areaRoute a').on('click', function() {
 		click: true,
 		mouseWhell: true,
 		scrollbars: false,
-		fadeScrollbars: false
+		fadeScrollbars: false,
+		disablePointer: true,
+		disableTouch: false,
+		disableMouse: false
 	});
 })
 
