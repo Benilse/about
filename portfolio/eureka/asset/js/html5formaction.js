@@ -1,0 +1,4 @@
+/**
+* html5-formaction-ie.min.js | http://jobcoding.net/feed/view?feedIdx=11904
+*/
+function domReady(){!function(){var a=function(a,b,c){a.attachEvent("on"+b,c)},b=function(a,b){for(var c=0,d=a.length;d>c;c++)b(a[c])};a(window,"load",function(){var c=[];b(document.getElementsByTagName("form"),function(a){b(a.getElementsByTagName("input"),function(b){null!==b.getAttribute("formaction")&&c.push([a,b])}),b(a.getElementsByTagName("button"),function(b){null!==b.getAttribute("formaction")&&c.push([a,b])})}),b(c,function(b){a(b[1],"click",function(){return b[0].action=b[1].getAttribute("formaction"),b[0].submit(),!1})})})}()}document.addEventListener?document.addEventListener("DOMContentLoaded",function(){document.removeEventListener("DOMContentLoaded",arguments.callee,!1),domReady()},!1):document.attachEvent&&document.attachEvent("onreadystatechange",function(){"complete"===document.readyState&&(document.detachEvent("onreadystatechange",arguments.callee),domReady())});
